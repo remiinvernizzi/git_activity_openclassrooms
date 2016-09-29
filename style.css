@@ -3,15 +3,3 @@
 	width: 500px;
 	margin: auto;
 }
-
-label
-{
-	width: 40%;
-	text-align: right;
-}
-
-input
-{
-	width: 60%;
-	text-align: left;
-}
