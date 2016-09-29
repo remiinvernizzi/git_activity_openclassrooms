@@ -8,7 +8,8 @@
 	<body>
 		<div id="form_page">
 			<form method="post" action="#">
-				<p>
+				<fieldset>
+					<legend>Informations Générales</legend>
 					<label for="pseudo">Votre pseudo :</label>
 					<input type="text" name="pseudo" id="pseudo" required>
 					<br />
@@ -18,8 +19,20 @@
 					<label for="birth">Votre date de naissance :</label>
 					<input type="date" name="birth" id="birth" required>
 					<br />
-					<input type="submit" value="Confirmer" />
-				</p>
+					<label for="pays">Dans quel pays habitez-vous ?</label>
+			       	<select name="pays" id="pays">
+			           	<option value="france">France</option>
+		          	 	<option value="espagne">Espagne</option>
+		          	 	<option value="italie">Italie</option>
+			           	<option value="royaume-uni">Royaume-Uni</option>
+			           	<option value="canada">Canada</option>
+			           	<option value="etats-unis">États-Unis</option>
+			           	<option value="chine">Chine</option>
+			           	<option value="japon">Japon</option>
+			       	</select>
+			    </fielset>
+			    <br />
+				<input type="submit" value="Confirmer" />
 			</form>
 		</div>
 	</body>
